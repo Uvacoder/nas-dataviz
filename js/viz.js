@@ -844,6 +844,7 @@ var isMobile = {
 }; 
 
 // On window resize
+/*
 wd.addEventListener("resize", function() {
     var w_new = wd.innerWidth || e.clientWidth || g.clientWidth,
     h_new = wd.innerHeight|| e.clientHeight|| g.clientHeight;
@@ -860,6 +861,7 @@ wd.addEventListener("resize", function() {
         w=w_new;
     }
 });
+*/
 // wd.addEventListener("resize", function() {
 //     if(isMobile!=true) {
 //     location.reload();

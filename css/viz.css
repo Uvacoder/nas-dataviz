@@ -185,7 +185,7 @@ kbd.fail {
 svg:not(:root) {
     overflow: visible;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
 }
 svg *::selection {
     background : transparent;
@@ -267,7 +267,7 @@ text.heatLabel {
     text-decoration: none solid rgb(255, 255, 255);
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    width: 1519.2px;
+    /* width: 1519.2px; */
     column-rule-color: rgb(255, 255, 255);
     perspective-origin: 759.6px 72.2px;
     transform-origin: 759.6px 72.2px;
@@ -337,7 +337,7 @@ text.heatLabel {
     text-decoration: none solid rgba(255, 255, 255, 0.6);
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    width: 1519.2px;
+    /* width: 1519.2px; */
     column-rule-color: rgba(255, 255, 255, 0.6);
     perspective-origin: 759.6px 25px;
     transform-origin: 759.6px 25px;
@@ -348,7 +348,17 @@ text.heatLabel {
     outline: rgba(255, 255, 255, 0.6) none 0px;
     overflow: hidden;
 }/*#DIV_6*/
-
+.footer-copyright a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.footer-copyright a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent !important;
+}
 .copyright-text {
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.6);
