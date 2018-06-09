@@ -873,7 +873,7 @@ var viewport_meta = document.getElementById('viewport-meta');
 // Define our viewport meta values
 var viewports = {
 		default: viewport_meta.getAttribute('content'),
-		landscape: 'width=1280'
+		landscape: 'width=768'
 	};
 if (isMobile) {
     viewport_meta.setAttribute( 'content', viewports.landscape );
