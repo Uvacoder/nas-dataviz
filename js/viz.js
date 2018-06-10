@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // alert("Ready!");
+    $('.se-pre-con').fadeOut("slow");
+}, false);
+/* Image protection code */
+
+// Disable dragging of images
+$("img").mousedown(function(){
+    return false;
+});
+/* End of image protection code */
+// Update copyright with current year
+var d = new Date();
+$("footer #date").text(d.getFullYear());
 // initialising the WOW animations
 var wow = new WOW(
     {
